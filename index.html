@@ -11,6 +11,16 @@
     />
     <title>Travel Agency</title>
   </head>
+  <style>
+    .card > img {
+      height: 25vh;
+      object-fit: cover;
+    }
+
+    .translate-middle {
+      transform: translate(-30%, 24%) !important;
+    }
+  </style>
   <body>
     <header class="container bg-body-tertiary">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -55,36 +65,36 @@
     </header>
     <main>
       <div class="container bg-body-tertiary mt-5">
-        <h1 class="h1 fs-1 border-bottom text-secondary fw-light">
-          Eveline-R-<span class="h5">Feel the Freedom</span>
+        <h1 class="h1 fs-1 border-bottom text-secondary fw-light p-5 d-flex align-items-end">
+          Eveline-R- <span class="h5 fs-4 fw-lighter">Feel the Freedom</span>
         </h1>
-        <h2 class="h2 fs-2 text-secondary fw-light">Scopri le destinazioni piu' calde del momento!</h2>
-        <button type="button" class="btn btn-info text-white">Prenota ora</button>
+        <h2 class="h2 fs-2 text-secondary fw-light px-5">Scopri le destinazioni piu' calde del momento!</h2>
+        <button type="button" class="btn btn-info text-white px-5 m-5">Prenota ora</button>
       </div>
       <div class="container mt-5">
         <h3 class="h3">Saldi</h3>
         <div class="row">
-          <div class="col-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
             <div class="card">
               <img
-                src="https://images.unsplash.com/photo-1504150558240-0b4fd8946624?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="card-img-top"
+                src="https://images.unsplash.com/photo-1564425230164-1e63b4922d3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFsYXdhbnxlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top border border-info border-bottom-0"
                 alt="..."
               />
               <div class="card-body border border-info">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">PALAWAN</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary bg-info border-0">Prenota</a>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card border border-info">
               <img
                 src="https://images.unsplash.com/photo-1504150558240-0b4fd8946624?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="card-img-top"
+                class="card-img-top border border-info border-bottom-0"
                 alt="..."
               />
               <div class="card-body">
@@ -92,39 +102,158 @@
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary bg-info border-0">Prenota</a>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="ccol-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
             <div class="card">
               <img
-                src="https://images.unsplash.com/photo-1504150558240-0b4fd8946624?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top border border-info border-bottom-0"
+                alt="..."
+              />
+              <div class="card-body border border-info">
+                <h5 class="card-title">TOKYO</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1595901688281-9cef114adb0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD"
+                class="card-img-top border border-info border-bottom-0"
+                alt="..."
+              />
+              <div class="card-body border border-info">
+                <h5 class="card-title">NEW YORK</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <h3 class="mb-3">Welcome Summer</h3>
+        <div class="row row-gap-4">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+            <div class="card position-relative shadow-lg">
+              <img
+                src="https://images.unsplash.com/photo-1595901688281-9cef114adb0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD"
                 class="card-img-top"
                 alt="..."
               />
+              <span class="bg-danger px-1 text-white position-absolute top-0 end-0 z-3 translate-middle rounded-3"
+                >HOT</span
+              >
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary bg-info border-0">Prenota</a>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+            <div class="card position-relative shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1504150558240-0b4fd8946624?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1595901688281-9cef114adb0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD"
                 class="card-img-top"
                 alt="..."
               />
+              <span class="bg-danger px-1 text-white position-absolute top-0 end-0 z-3 translate-middle rounded-3"
+                >HOT</span
+              >
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary bg-info border-0">Prenota</a>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+            <div class="card position-relative shadow-lg">
+              <img
+                src="https://images.unsplash.com/photo-1595901688281-9cef114adb0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD"
+                class="card-img-top"
+                alt="..."
+              />
+              <span class="bg-danger px-1 text-white position-absolute top-0 end-0 z-3 translate-middle rounded-3"
+                >HOT</span
+              >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+            <div class="card position-relative shadow-lg">
+              <img
+                src="https://images.unsplash.com/photo-1595901688281-9cef114adb0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD"
+                class="card-img-top"
+                alt="..."
+              />
+              <span class="bg-danger px-1 text-white position-absolute top-0 end-0 z-3 translate-middle rounded-3"
+                >HOT</span
+              >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+            <div class="card position-relative shadow-lg">
+              <img
+                src="https://images.unsplash.com/photo-1595901688281-9cef114adb0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD"
+                class="card-img-top"
+                alt="..."
+              />
+              <span class="bg-danger px-1 text-white position-absolute top-0 end-0 z-3 translate-middle rounded-3"
+                >HOT</span
+              >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+            <div class="card position-relative shadow-lg">
+              <img
+                src="https://images.unsplash.com/photo-1595901688281-9cef114adb0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD"
+                class="card-img-top"
+                alt="..."
+              />
+              <span class="bg-danger px-1 text-white position-absolute top-0 end-0 z-3 translate-middle rounded-3"
+                >HOT</span
+              >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary bg-info border-0 text-dark">Prenota</a>
               </div>
             </div>
           </div>
